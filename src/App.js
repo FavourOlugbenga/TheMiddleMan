@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Home from "./Pages/Home";
 import Pollution from "./Pages/Pollution";
-import Profile from "./Pages/Profile"
-import Signup from "./Pages/Signup"
+import Profile from "./Pages/Profile";
+import Signup from "./Pages/Signup";
 import NavBar from "./NavBar";
 
 import "./App.css";
