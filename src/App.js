@@ -11,8 +11,7 @@ import "./App.css";
 
 const pages = [
     { name: "Home", component: Home },
-    { name: "Pollution", component: Pollution },
-    { name: "Profile", component: Profile },
+  
     { name: "Signup", component: Signup }
 ];
 
@@ -36,7 +35,7 @@ class App extends Component {
         return (
             <div className="app">
                 <NavBar pages={pages} onChange={this.navigate} />
-                <Page />
+                <Page onChange={this.navigate}/>
             </div>
         );
     }

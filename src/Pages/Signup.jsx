@@ -1,6 +1,8 @@
 import React from "react"
+import Profile from "./Profile";
 import "./Signup.css"
-export default ()=>(
+
+export default ({ onChange } = {}) => (
     
 <div class='container' >
 			
@@ -57,12 +59,12 @@ export default ()=>(
 					<div class='form-group' >
 						
 						<div class='oddT-icon-input' >
-							
+								 <i class="glyphicon glyphicon-comment"></i>
+						
+						</div>	
 							 
               <textarea class='oddT-text' placeholder='Bio' rows='7' ></textarea>
-							 <i class="glyphicon glyphicon-comment"></i>
-						
-						</div>
+					
 					
 					</div>
 					
@@ -88,7 +90,7 @@ export default ()=>(
 							
 							<div class='form-group' >
 								
-								<button type='submit' class='oddT-btn btn-block' >Create Profile</button>
+								<button type='submit' class='oddT-btn btn-block' onClick={(e) => {e.preventDefault(); onChange(Profile)}}>Create Profile</button>
 							
 							
 							</div>
