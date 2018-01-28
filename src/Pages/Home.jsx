@@ -4,14 +4,14 @@ export default () => (
     <div>
         <div class="section">
             <div class="slider">
-                <div class="container slidercontent">
+                <div class="container2 slidercontent">
                     <h1 class="hero">The Middle Man</h1>
                     <h2 class="hero">Connections await.</h2>
                     <div class="call"><span>Sign Up</span></div>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container2">
             <h1>Mission Statement</h1>
             <h2>Middle Men is a networking organization that helps non profit startups find necessary connections. Such assistance can take place in the form of grants and personnel assistance. We connect with problem solvers around the globe to make their dreams reality. </h2>
             <div class="section">
@@ -40,17 +40,17 @@ export default () => (
             </div>
         </div>
         <div class="section bg">
-            <div class="container">
+            <div class="container2">
                 <h1>Want to change the world?</h1>
                 <h2>We'll help you get there.</h2>
                 <div class="col three bg nopad pointer">
-                    <div class="imgholder"></div>
+                    
                     <div class="giant">A</div>
                     <h3 class="feature">The Little Guy</h3>
                 </div>
                 <div class="col three bg nopad pointer">
-                    <div class="imgholder"></div>
-                    <div class="giantss">+</div>
+                    
+                    <div class="giants">+</div>
                     <h1 class="feature">The Middle Man</h1>
                 </div>
                 <div class="col three bg nopad pointer">
