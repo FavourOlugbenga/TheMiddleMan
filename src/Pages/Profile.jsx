@@ -1,9 +1,11 @@
 import React from "react"
 import "./Profile.css"
-import logo from "./midmanhat.png"
+import logo from "../midmanthree.png"
 export default ()=>(
     <div>
-    <img src={logo}/>
+		<div class="logo">
+    <img  src={logo}/>
+	</div>
     <h1>Favour Olugbenga</h1>
 <h2> Hi my name is Favour Olugbenga, I am interested in starting a non-profit organization for education.</h2>
 
