@@ -11,7 +11,7 @@ import "./App.css";
 
 const pages = [
     { name: "Home", component: Home },
-  
+    { name: "Profile", component: Profile},
     { name: "Signup", component: Signup }
 ];
 
