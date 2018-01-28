@@ -17,7 +17,7 @@ export default () => (
                 <h1>How these organizations help</h1>
                 <h2>There are many organizations available to help with worldwide issues.</h2>
                 <div class="col three">
-                    <h1 class="icon side"></h1>
+                    <h1 class="icon side">[]</h1>
                     <h1 class="feature side">Grants.Gov</h1>
                     <p class="side">Grants.gov centralizes information from more than 1,000 government grant programs to help states and organizations find and apply for grants. They gain their funding from these other organizations.</p>
                 </div>
