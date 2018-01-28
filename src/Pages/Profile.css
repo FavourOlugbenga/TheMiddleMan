@@ -62,7 +62,7 @@ p {
   text-shadow: 1px 1px 2px #444444;
 }
 
-.container {
+.container9 {
 	left: 50%;
 	margin:6em 0 0 -108px;
 	position: absolute;
@@ -102,7 +102,7 @@ p {
 @media only screen 
 and (max-width : 320px) {
 
-.container {
+.container9 {
 left: 50%;
 margin: 5em 0 0 -64px;
 position: absolute;
